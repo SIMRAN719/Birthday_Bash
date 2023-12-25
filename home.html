@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="header_text">HAPPYYYYYYY BIRTHDAYYYYYYY!</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.giphy.com/media/eltZvfFAW9f9HI1foH/giphy.gif">
+            </div>
+            <div>
+                <h1 class="header_text">Party?</h1>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage('yes.html')">Yes</button> 
+                <button class="btn" id="noButton" onclick="nextPage('no.html')">No</button>
+                <script>
+                    function nextPage(page) {
+                        window.location.href = page;
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

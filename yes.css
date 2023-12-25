@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: lightpink;
+}
+.header_txt{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: lightpink;
+}
+#noButton{
+    position: absolute;
+    margin-left: 150px;
+
+}
+#yesButton{
+    position: absolute;
+    margin-right: 150px;
+}
+.header_text{
+    font-family: 'Boogaloo', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.gif_container{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn{
+    background-color: hotpink;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-color: white;
+    border-radius: 0%;
+}
